@@ -1,0 +1,6 @@
+unhide startup application
+
+mkdir -p ~/.config/autostart
+cd ~/.config/autostart
+cp /etc/xdg/autostart/*.desktop .
+sed -i "s/NoDisplay=true/NoDisplay=false/g" *.desktop
