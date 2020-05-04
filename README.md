@@ -1,1 +1,1 @@
-# tricks-linux-
+### linux scripts
