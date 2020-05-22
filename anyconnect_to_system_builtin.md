@@ -9,7 +9,6 @@ In the menu that appears, go to  VPN Connections -> Configure VPN
 Click Add.
 Choose Cisco AnyConnect Compatible VPN (openconnect) and click Create.
 Enter the following information:
-Connection name: Tech Services VPN
 ### convert usercertificate in .pfx to .pem
 openssl pkcs12 -in certificatename.pfx -out certificatename.pem
 ### place above under User Certificate
