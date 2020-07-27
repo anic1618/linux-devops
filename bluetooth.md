@@ -1,3 +1,4 @@
+```
 hcitool scan  # to get the MAC address of your device
 bluetoothctl
 agent on
@@ -6,3 +7,4 @@ scan off
 trust MAC_ADDRESS
 pair MAC_ADDRRESS
 connect MAC_ADDRESS
+```
