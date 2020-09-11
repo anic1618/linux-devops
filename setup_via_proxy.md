@@ -51,8 +51,8 @@ vi ~/.docker/config.json with the following contents (replace proxy.server and p
 ``` 
 cd /etc/apt/apt.conf.d
 vi proxy_test
-Acquire::http::Proxy "proxyserver's ip:port";
-Acquire::https::Proxy "proxyserver's ip:port";
+Acquire::http::Proxy "http://proxyserver's ip:port";
+Acquire::https::Proxy "https://proxyserver's ip:port";
 ```
 ### GITHUB 
 src: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
