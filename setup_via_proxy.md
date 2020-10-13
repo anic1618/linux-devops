@@ -33,8 +33,9 @@ See changes
 
 ```
 ### Docker build and Docker Compose 
-src:  https://docs.docker.com/config/daemon/systemd/#httphttps-proxy
+src:  https://docs.docker.com/config/daemon/systemd/#httphttps-proxy #this worked
 ```
+#this doesn't worked
 vi ~/.docker/config.json with the following contents (replace proxy.server and port):
 {
  "proxies":
