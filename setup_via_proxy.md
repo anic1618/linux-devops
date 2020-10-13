@@ -9,6 +9,7 @@ https_proxy=10.1.1.2:3122
     export https_proxy=proxyserver's ip:port
     export NO_PROXY=localhost,127.0.0.1,master-node-ip, worker-node-ip etc      
 ```
+
 ### For docker 
 src: https://docs.docker.com/config/daemon/systemd/
 ```
@@ -54,6 +55,7 @@ vi proxy_test
 Acquire::http::Proxy "http://10.1.1.1:3122";
 Acquire::https::Proxy "https://10.1.1.1:3122";
 ```
+* sometime Acquire::https::Proxy "http://10.1.1.1:3122";
 ### GITHUB 
 src: https://gist.github.com/evantoli/f8c23a37eb3558ab8765
 ```
