@@ -1,0 +1,3 @@
+It seems that the clients were connected to the server but they encountered with " [Errno 104] Connection reset by peer" exception when they tried to send data. For the first time, Python raises "[Errno 104] Connection reset by peer" exception, then for the second time and more you would get "[Errno 32] Broken pipe" exception on the client side.
+
+This can mean that the server is up and listening on the port (otherwise, you would get "[Errno 111] Connection refused" exception on the client side". This also means that the server is crashed before closing the connection since if the connection was closed on the server side before sending data on the client side, the client would encounter with "[Errno 32] Broken pipe"
